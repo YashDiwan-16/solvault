@@ -7,7 +7,7 @@ import { Menu } from "lucide-react";
 import Link from "next/link";
 import ModeToggle from "./darkmode";
 import { ConnectButton } from "../ConnectButton";
-import { ActionButtonList } from "../ActionButtonList";
+// import { ActionButtonList } from "../ActionButtonList";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +54,7 @@ const Navbar = () => {
           <ModeToggle />
 
           <ConnectButton />
-          <ActionButtonList />
+          {/* <ActionButtonList /> */}
         </div>
 
         {/* Mobile Navigation */}
